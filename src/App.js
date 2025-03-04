@@ -1,20 +1,16 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import StudentDashboard from "./StudentDashboard";
-import TeacherDashboard from "./TeacherDashboard";
-import Login from "./Login";
 
-const App = () => {
+import React from 'react';
+import './App.css';
+
+function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/student" element={<StudentDashboard />} />
-        <Route path="/teacher" element={<TeacherDashboard />} />
-      </Routes>
-    </Router>
+    <div className="App">
+      <header className="App-header">
+        <h1>Welcome to the Attendance App!</h1>
+        <p>This is the homepage of your awesome Attendance system.</p>
+      </header>
+    </div>
   );
-};
+}
 
 export default App;
-
