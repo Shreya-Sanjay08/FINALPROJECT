@@ -4,12 +4,12 @@ import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 
 // Firebase Config
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID",
+  apiKey: "AIzaSyC6onFdorEpwVGvdqWQ6p5tQo1u_nLkRGg",
+  authDomain: "attendance-41062.firebaseapp.com",
+  projectId: "attendance-41062",
+  storageBucket: "attendance-41062.firebasestorage.app",
+  messagingSenderId: "774004446167",
+  appId: "1:774004446167:web:31cba8253d0c72445e3192",
 };
 
 // Initialize Firebase
